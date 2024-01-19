@@ -153,6 +153,8 @@ print(n)
 print(adders[0].__closure__)
 
 print(adders[0](10))
+print(adders[1](10))
+print(adders[2](10))
 
 print("####################################")
 print("####################################")
